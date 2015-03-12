@@ -187,11 +187,6 @@
         fr.readAsArrayBuffer(slice);
     };
 
-    /**
-     * @constructor
-     */
-    function DataView() {
-    }
 
     DataView.prototype.safeDecode = function(str) {
         try {
